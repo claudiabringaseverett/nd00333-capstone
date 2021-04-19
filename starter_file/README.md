@@ -145,7 +145,7 @@ After this, we tested the model endpoint by providing dummy data to see the resu
 
 ![model-deployment-4](/starter_file/model-deployment-4.png)
 
-In the screenshot above, I am providing cases to test the deployed model. The model returns the output as 0 and 1. This means that based on Voting Ensemble model, the first set of parameters would mean that the patient will not die. However, the second output is 1, that that based on the test, the patient most likely die due to heart disease.
+In the screenshot above, we are using values from the data to test the model. The model returns the output as 0 and 1. This means that based on Voting Ensemble model, if a patient has an output of 0 then it means she/he won't die from heart disease. However, the second output is 1, which means the patient most likely die due to heart disease.
 
 
 ## Screen Recording
