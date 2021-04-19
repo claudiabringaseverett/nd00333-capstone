@@ -106,7 +106,7 @@ The best model was Voting Ensemble with an accuray of 0.8696. Voting Ensemble le
 
 ![best-model](/starter_file/best-model.png)
 
-## Future Improvement Suggestions
+### Future Improvement Suggestions
 To improve the autoML, I can disable the early stopping and increase experiment_timeout_minutes. Also choose another primary_metric such as AUC instead of Accuracy because AUC is better way to measure performance than accuracy because it does not bias on size of test or evaluation data.
 
 ## Hyperparameter Tuning
@@ -133,7 +133,7 @@ The parameter search space used for C is [0.01, 0.1, 1.0, 10.0, 100.0] and for m
 
 As we can see from the screenshot above, HyperDrive tested many combinations of C and max_iter and the highest accuracy that our Logistic Regression Model acheived was 0.7888888888888889. To improve these results, we should handle the class imbalance in the dataset. Also, I could've increased max_total_runs so that I can optimize the parameters more and use a different primary metric to maximize, similar to the automl model. Lastly, I could use Bayesian sampling insted of Random Sampling as it picks the next sample of hyperparameters, based on how the previous samples performed.
 
-## Future Improvement Suggestions
+### Future Improvement Suggestions
 I could have used Bayesian sampling insted of Random Sampling as it picks the next sample of hyperparameters, based on how the previous samples performed. Also, I could have increased the the max_total_runs so it can optimize the parameters.
 
 ## Model Deployment
