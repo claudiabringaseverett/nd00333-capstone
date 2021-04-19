@@ -107,6 +107,7 @@ The best model was Voting Ensemble with an accuray of 0.8696. Voting Ensemble le
 ![best-model](/starter_file/best-model.png)
 
 ## Hyperparameter Tuning
+
 For this technique, I decided to choose logistic regression for the following reason:
 
 * It is the most basic algorithm when it comes to classification and one should always start from basic models
@@ -120,23 +121,28 @@ Then, I use random parameter sampling to sample over a discrete set of values. R
 The parameter search space used for C is [0.01, 0.1, 1.0, 10.0, 100.0] and for max_iter is [20, 50, 100, 120, 150]
 
 
-
 ### Results
-*TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+![hd-run-details](/starter_file/hd-run-details.png)
+![hd-run-details-2](/starter_file/hd-run-details-2.png)
+![hd-run-details-3](/starter_file/hd-run-details-3.png)
+![hd-run-details-4](/starter_file/hd-run-details-4.png)
+
+
 
 ## Model Deployment
-*TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+Based on the previous results, I chose the Voting Ensemble model as it has the best Accuracy out of the two. To successfully deploy the model, we must have an InferenceConfig and an ACI Config.
+
+
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-- A working model
-- Demo of the deployed  model
-- Demo of a sample request sent to the endpoint and its response
+
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+Choose another primary metric like "AUC Weighted" instead of accuracy
+Choose another Classifier instead of Logistic Regression.
+Feature Selection can be performed to select only thsoe features that positively contribute to the prediction of the outcome variable
+
 
 ## References
 Centers for Disease Control and Prevention. Underlying Cause of Death, 1999–2018. CDC WONDER Online Database. Atlanta, GA: Centers for Disease Control and Prevention; 2018. Accessed March 12, 2020.
