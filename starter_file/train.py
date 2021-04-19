@@ -38,9 +38,9 @@ def main():
 
     accuracy = model.score(x_test, y_test)
 
-    os.makedirs("outputs",exist_ok=True)
+    os.makedirs("outputs", exist_ok=True)
     
-    joblib.dump(value=model,filename="./outputs/model.joblib")
+    joblib.dump(model, 'outputs/hyperdrive_model.joblib')
     
     run.log("Accuracy", np.float(accuracy))
 
