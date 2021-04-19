@@ -128,10 +128,11 @@ The parameter search space used for C is [0.01, 0.1, 1.0, 10.0, 100.0] and for m
 ![hd-run-details-3](/starter_file/hd-run-details-3.png)
 ![hd-run-details-4](/starter_file/hd-run-details-4.png)
 
-
+As we can see from the screenshot above, HyperDrive tested many combinations of C and max_iter and the highest accuracy that our Logistic Regression Model acheived was 0.7888888888888889. To improve these results, we should handle the class imbalance in the dataset.
 
 ## Model Deployment
 Based on the previous results, I chose the Voting Ensemble model as it has the best Accuracy out of the two. To successfully deploy the model, we must have an InferenceConfig and an ACI Config.
+
 
 
 
