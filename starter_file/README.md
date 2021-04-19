@@ -104,7 +104,18 @@ The best model was a with an accuray of
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
 ## Hyperparameter Tuning
-*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
+For this technique, I decided to choose logistic regression for the following reason:
+
+* It is the most basic algorithm when it comes to classification and one should always start from basic models
+* It is easy to understand the results and simple to train
+* The execution time is very fast
+
+C - The inverse regularization strength. max_iter | The maximum iteration to converge for the SKLearn Logistic Regression.
+
+Then, I use random parameter sampling to sample over a discrete set of values. Random parameter sampling is great for discovery and getting hyperparameter combinations that you would not have guessed intuitively, although it often requires more time to execute.
+
+The parameter search space used for C is [0.01, 0.1, 1.0, 10.0, 100.0] and for max_iter is [20, 50, 100, 120, 150]
+
 
 
 ### Results
