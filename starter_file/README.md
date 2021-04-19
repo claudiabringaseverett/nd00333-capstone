@@ -136,8 +136,16 @@ Based on the previous results, I chose the Voting Ensemble model as it has the b
 
 ![model-deployment](/starter_file/model-deployment.png)
 ![model-deployment-2](/starter_file/model-deployment-2.png)
+
+From the screenshot above, we can also verify from the azure portal that the model was successfully deployed and is in a healthy state.
+
+After this, we tested the model endpoint by providing dummy data to see the results. Below is the screenshot of the test data used to test the endoint:
+
 ![model-deployment-3](/starter_file/model-deployment-3.png)
+
 ![model-deployment-4](/starter_file/model-deployment-4.png)
+
+In the screenshot above, I am providing cases to test the deployed model. The model returns the output as 0 and 1. This means that based on Voting Ensemble model, the first set of parameters would mean that the patient will not die. However, the second output is 1, that that based on the test, the patient most likely die due to heart disease.
 
 
 ## Screen Recording
