@@ -104,6 +104,8 @@ The best model was Voting Ensemble with an accuray of 0.8696. Voting Ensemble le
 
 ![run-details-2](/starter_file/run-details-2.png)
 
+![best-model](/starter_file/best-model.png)
+
 ## Hyperparameter Tuning
 For this technique, I decided to choose logistic regression for the following reason:
 
