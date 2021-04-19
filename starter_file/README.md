@@ -100,6 +100,9 @@ task: Classification since we want a binary prediction or either 1 or 0.
 ### Results
 The best model was a with an accuray of 
 
+![run-details](/starter_file/run-details.png)
+
+![run-details-2](/starter_file/run-details-2.png)
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
