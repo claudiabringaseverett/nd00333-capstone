@@ -83,10 +83,23 @@ The dataset can be accessed by loading a csv file in the azure platform
 ![dataset](/starter_file/dataset.png)
 
 ## Automated ML
-*TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
+For the Compute Target, I used a 'STANDARD_D2_V2' vm_size with max_nodes=4. For the AutoML Configuration, I used the following settings:
+![automl](/starter_file/automl.png)
+
+experiment_timeout_minutes: I chose 15 minutes as the maximum amount of time to run the experiment
+
+max_concurrent_iterations: maximum number of iterations that would be executed in parallel
+
+n_cross_validations: To avoid overfitting, we need to user cross validation.
+
+primary_metric: Accuracy.
+
+task: Classification since we want a binary prediction or either 1 or 0.
+
 
 ### Results
-*TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
+The best model was a with an accuray of 
+
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
