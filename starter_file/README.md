@@ -134,7 +134,10 @@ As we can see from the screenshot above, HyperDrive tested many combinations of 
 ## Model Deployment
 Based on the previous results, I chose the Voting Ensemble model as it has the best Accuracy out of the two. To successfully deploy the model, we must have an InferenceConfig and an ACI Config.
 
-
+![model-deployment](/starter_file/model-deployment.png)
+![model-deployment-2](/starter_file/model-deployment-2.png)
+![model-deployment-3](/starter_file/model-deployment-3.png)
+![model-deployment-4](/starter_file/model-deployment-4.png)
 
 
 ## Screen Recording
