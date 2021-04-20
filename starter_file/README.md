@@ -163,7 +163,12 @@ I could have used Bayesian sampling insted of Random Sampling as it picks the ne
 ## Model Deployment
 Based on the previous results, I chose the Voting Ensemble model as it has the best Accuracy out of the two. To successfully deploy the model, we must have an InferenceConfig and an ACI Config.
 
+Scoring uri and primary key of the deployed webservice
+
+![model-deployment-ws](/starter_file/model-deployment-ws.png)
+
 ![model-deployment](/starter_file/model-deployment.png)
+
 ![model-deployment-2](/starter_file/model-deployment-2.png)
 
 From the screenshot above, we can also verify from the azure portal that the model was successfully deployed and is in a healthy state.
