@@ -188,9 +188,7 @@ From the screenshot above, we can also verify from the azure portal that the mod
 
 After this, we tested the model endpoint by providing dummy data to see the results. Below is the screenshot of the test data used to test the endoint:
 
-![model-deployment-3](/starter_file/model-deployment-3.png)
-
-![model-deployment-4](/starter_file/model-deployment-4.png)
+![model-1](/starter_file/model-1.png)
 
 In the screenshot above, we are using values from the data to test the model. The model returns the output as 0 and 1. This means that based on Voting Ensemble model, if a patient has an output of 0 then it means she/he won't die from heart disease. However, the second output is 1, which means the patient most likely die due to heart disease.
 
