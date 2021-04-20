@@ -83,6 +83,8 @@ In Azure ML Studio, I registered the dataset from local files. I have the .csv f
 ## Automated ML
 For the Compute Target, I used a 'STANDARD_D2_V2' vm_size with max_nodes=4. For the AutoML Configuration, I used the following settings:
 ![automl](/starter_file/automl.png)
+![automl-models-2](/starter_file/automl-models-2.png)
+![automl-models](/starter_file/automl-models.png)
 
 experiment_timeout_minutes: I chose 15 minutes as the maximum amount of time to run the experiment
 
