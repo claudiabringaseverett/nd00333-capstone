@@ -200,7 +200,7 @@ This file contains the environment details. This helps with replicating the same
 
 ## Screen Recording
 
-https://youtu.be/s-SChYL4QaU
+https://youtu.be/wp10DmJI01s
 
 ## Standout Suggestions
 Choose another primary metric like "AUC Weighted" instead of accuracy
