@@ -83,8 +83,6 @@ In Azure ML Studio, I registered the dataset from local files. I have the .csv f
 ## Automated ML
 For the Compute Target, I used a 'STANDARD_D2_V2' vm_size with max_nodes=4. For the AutoML Configuration, I used the following settings:
 ![automl](/starter_file/automl.png)
-![automl-models-2](/starter_file/automl-models-2.png)
-![automl-models](/starter_file/automl-models.png)
 
 experiment_timeout_minutes: I chose 15 minutes as the maximum amount of time to run the experiment
 
@@ -96,6 +94,28 @@ primary_metric: Accuracy.
 
 task: Classification since we want a binary prediction or either 1 or 0.
 
+AutoML Run
+
+![automl-models-2](/starter_file/automl-models-2.png)
+![automl-models](/starter_file/automl-models.png)
+
+AutoML Best Model
+
+![automl-best-model](/starter_file/automl-best-model.png)
+
+experiment_timeout_minutes: I chose 15 minutes as the maximum amount of time to run the experiment
+
+max_concurrent_iterations: maximum number of iterations that would be executed in parallel
+
+n_cross_validations: To avoid overfitting, we need to user cross validation.
+
+primary_metric: Accuracy.
+
+task: Classification since we want a binary prediction or either 1 or 0.
+
+AutoML Best model parameters
+
+![automl-best-parameters](/starter_file/automl-best-parameters.png)
 
 ### Results
 The best model was Voting Ensemble with an accuray of 0.8696. Voting Ensemble learning improves machine learning results and predictive performance by combining multiple models as opposed to using single models.
