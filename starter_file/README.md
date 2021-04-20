@@ -169,6 +169,8 @@ Based on the previous results, I chose the Voting Ensemble model as it has the b
 
 #### Deployment successful
 
+![deploy](/starter_file/deploy.png)
+
 ![model-deployment](/starter_file/model-deployment.png)
 
 #### Endpoint
