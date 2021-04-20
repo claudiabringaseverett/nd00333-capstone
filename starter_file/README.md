@@ -94,26 +94,17 @@ primary_metric: Accuracy.
 
 task: Classification since we want a binary prediction or either 1 or 0.
 
-AutoML Run
+#### AutoML Run
 
 ![automl-models-2](/starter_file/automl-models-2.png)
 ![automl-models](/starter_file/automl-models.png)
 
-AutoML Best Model
+<b>AutoML Best Model</b>
 
 ![automl-best-model](/starter_file/automl-best-model.png)
 
-experiment_timeout_minutes: I chose 15 minutes as the maximum amount of time to run the experiment
 
-max_concurrent_iterations: maximum number of iterations that would be executed in parallel
-
-n_cross_validations: To avoid overfitting, we need to user cross validation.
-
-primary_metric: Accuracy.
-
-task: Classification since we want a binary prediction or either 1 or 0.
-
-AutoML Best model parameters
+#### AutoML Best model parameters
 
 ![automl-best-parameters](/starter_file/automl-best-parameters.png)
 
