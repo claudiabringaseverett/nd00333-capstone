@@ -94,12 +94,16 @@ primary_metric: Accuracy.
 
 task: Classification since we want a binary prediction or either 1 or 0.
 
+### Results
+
 #### AutoML Run
 
 ![automl-models-2](/starter_file/automl-models-2.png)
 ![automl-models](/starter_file/automl-models.png)
 
-<b>AutoML Best Model</b>
+#### AutoML Best Model
+
+The best model was Voting Ensemble with an accuray of 0.8696. Voting Ensemble learning improves machine learning results and predictive performance by combining multiple models as opposed to using single models.
 
 ![automl-best-model](/starter_file/automl-best-model.png)
 
@@ -108,14 +112,12 @@ task: Classification since we want a binary prediction or either 1 or 0.
 
 ![automl-best-parameters](/starter_file/automl-best-parameters.png)
 
-### Results
-The best model was Voting Ensemble with an accuray of 0.8696. Voting Ensemble learning improves machine learning results and predictive performance by combining multiple models as opposed to using single models.
+#### Run Details
 
 ![run-details](/starter_file/run-details.png)
 
 ![run-details-2](/starter_file/run-details-2.png)
 
-![best-model](/starter_file/best-model.png)
 
 ### Future Improvement Suggestions
 To improve the autoML, I can disable the early stopping and increase experiment_timeout_minutes. Also choose another primary_metric such as AUC instead of Accuracy because AUC is better way to measure performance than accuracy because it does not bias on size of test or evaluation data.
