@@ -142,6 +142,13 @@ The parameter search space used for C is [0.01, 0.1, 1.0, 10.0, 100.0] and for m
 
 ### Results
 
+### Parameters for Hyperdrive
+HyperDrive tested many combinations of C and max_iter and the highest accuracy that our Logistic Regression Model acheived was 0.7888888888888889. The hyperparamteres that were used by this model are:
+
+Regularization Strength or C = 10
+
+Max Iterations (max_iter) = 20
+
 #### Run Details
 
 ![hd-run-detail](/starter_file/hd-run-detail.png)
