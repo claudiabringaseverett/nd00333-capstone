@@ -196,7 +196,7 @@ In the screenshot above, we are using values from the data to test the model. Th
 
 This file contains the environment details. This helps with replicating the same conditions for training a model at a later time.
 
-![env](/starter_file/env.png)
+![model-deployment-2](/starter_file/model-deployment-2.png)
 
 ## Screen Recording
 
